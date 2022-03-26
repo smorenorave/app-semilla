@@ -84,7 +84,7 @@ export default {
         seed: this.selectedSeed,
         plot: this.selectedPlot
       };
-      await axios.post("http://localhost:8080/project/create",this.data);
+      await axios.post("https://pla-back-shob2wlylq-uc.a.run.app/project/create",this.data);
 
       
     },
